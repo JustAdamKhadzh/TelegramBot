@@ -9,9 +9,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger()
 
-TOKEN = '757561487:AAG4Fhx3ftLSKyuX2j6YngsVvGMHim0OuUA'#токен для телеграм бота
-# api_token = 'e1bf14ba-f18d-42e3-b5fd-809990e63de3'#токен для доступа к яндекс картам
-api_token = 'dc84d856-d194-48d4-9a02-bb9e290cc5c7'
+TOKEN = #токен для телеграм бота
+api_token = #токен для доступа к яндекс картам
 updater = Updater(token = TOKEN)
 dispatcher = updater.dispatcher
 location = 'No'
